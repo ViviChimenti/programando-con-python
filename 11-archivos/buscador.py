@@ -17,6 +17,7 @@ for p in paises:
   if filtro.lower() in pais[0].lower():
     print(f"{pais[0]:20} tiene {pais[1]*1000:15,} habitantes")
  # probando
+ 
 print("FIN")
 paises.close()
 
