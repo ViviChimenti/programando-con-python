@@ -43,7 +43,12 @@ podemos imprimirlo en pantalla usando el metodo read() --> Nos retorna un str co
 '''
 Luego de usar un archivo es muy importante cerrarlo, para ello esta el metodo close()
 '''
-archivo.close()
+# archivo.close()
+
+archivo = open("paises.txt", "a")
+archivo = open("paises.txt", "r")
+for linea in archivo.readlines():
+  print("**", linea, "**")
 
 archivo.close()  
 
