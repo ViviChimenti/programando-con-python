@@ -3,3 +3,8 @@ Gato
 Delfin
 Tortuga
 Tigre
+gato
+delfin
+perro
+tigre
+tortuga
