@@ -1,4 +1,4 @@
-Acerbajan,7400,98,35,3000
+Acerbajan,7400,98,35,3000                      
 Afganistan,20500,29,168,205
 Alemania,81200,99,6.5,17539
 Arabia Saudi,18000,62,52,6651
