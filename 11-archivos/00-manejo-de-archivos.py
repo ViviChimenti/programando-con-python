@@ -24,17 +24,19 @@ archivo = open("paises.txt","r")
 
 OJO asegurarnos que el script de python este en la misma ruta!
 '''
-archivo = open("paises.txt","a")
+
+# archivo = open("paises.txt","a")
 
 '''
 La variable archivo, contiene el contenido de paises.txt
 
 podemos imprimirlo en pantalla usando el metodo read() --> Nos retorna un str con el contenido del archivo.
-'''
-archivo = open("paises.txt","r")
-for linea in archivo.readlines(): # [str,str,str]
+# '''
+# archivo = open("paises.txt","r")
+# for linea in archivo.readlines(): # [str,str,str]
   # Realizamos las tareas necesaria con cada linea, ejemplo la imprimimos decorada
-  print("···",linea)
+  
+  # print("···",linea,'***')
 
 # print(archivo.write("Hola clase, hoy estamos con archivos"))
 
@@ -43,6 +45,7 @@ Luego de usar un archivo es muy importante cerrarlo, para ello esta el metodo cl
 '''
 archivo.close()
 
+archivo.close()  
 
 '''
 Para crear un archivo
